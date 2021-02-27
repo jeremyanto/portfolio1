@@ -1,0 +1,156 @@
+.bidul {
+
+  color: white;
+ 
+  font-family: poppins;
+}
+
+
+.text-center {
+  height: 45em;
+  max-width: 150em;
+
+}
+
+.hauteur {
+  padding: 14em;
+}
+
+.txt {
+  padding: 2em;
+  color: aliceblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.8em;
+}
+
+.xp {
+
+  padding: 5.5em;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  margin: 1em;
+  font-family: poppins;
+
+}
+
+div.navbar.transparent.navbar-inverse.navbar-fixed-top  {
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 0;
+
+  
+}
+
+
+
+.title1 {
+  text-align: center;
+  color: whitesmoke;
+  margin: 1em;
+  font-family: poppins;
+
+}
+
+.img {
+  border: 2px solid black;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.centre {
+  text-align: center;
+}
+
+.table.table-dark{
+  color: aliceblue;
+}
+
+.blur img {
+	-webkit-filter: blur(3px);
+	filter: blur(5px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.blur:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.blur{
+  padding-top: 60px;
+  padding-left: 295px;
+}
+
+.reveal{
+   opacity: 0;
+   transform: translateY(-30px);
+   
+}
+
+.reveal-visible{
+  opacity: 1;
+  transform: translateY(0);
+  transition: .3s;
+}
+
+.texte{
+  color: whitesmoke; 
+  font-size: 20px;
+  margin-left: 50px;
+  padding-left: 450px;
+  padding-top: 130px;
+  font-family: poppins;
+}
+
+.texte1{
+  color: whitesmoke; 
+  font-size: 30px;
+  margin-left: 50px;
+  padding-left: 580px;
+  padding-top: 130px;
+  font-family: poppins;
+}
+
+.flotte {
+  float:left;
+  }
+
+.image{
+  height: 370px;
+  width: 320px;
+  border-radius: 10px;
+  margin-left: 110px;
+  margin-top: 70px;
+  box-shadow: 5px 5px 16px #555;
+}
+
+.image1{
+  height: 225px;
+  width: 250px;
+  border-radius: 10px;
+  
+  margin-top: 70px;
+  
+}
+
+.rounded.float-right{
+  border-radius: 5px 5px 5px 5px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel__container::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.carousel__item{
+  float: left;
+}
+
